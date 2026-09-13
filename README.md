@@ -2,8 +2,12 @@
 
 Vercel deployment source for the Company AI Document Hub.
 
-## Current status
+## Deployment
 
-The original app is a Hatchable application. This repository is the migration target for a Vercel-compatible implementation.
+This repository is prepared for import into Vercel from GitHub.
 
-A full production migration requires equivalent Vercel-compatible services for database, private file storage, member authentication, and AI before the application can operate independently of Hatchable.
+## Migration status
+
+The original application is a Hatchable application with member authentication, PostgreSQL, private file storage, document indexing, and AI. The Vercel repository currently contains a safe deployment shell because those Hatchable-managed services cannot be silently replaced without configuring equivalent Vercel-compatible services and credentials.
+
+GitHub repository: https://github.com/sabarish141/hacker
